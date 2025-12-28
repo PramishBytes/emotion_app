@@ -1,0 +1,13 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  background: #f8f8f8;
+  margin: 0;
+}
+
+.title {
+  font-size: 3em;
+}

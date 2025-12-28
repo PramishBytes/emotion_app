@@ -1,0 +1,33 @@
+.webcam-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 0 10px;
+}
+.webcam {
+  flex: 1;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  overflow: hidden;
+}
+.webcam-inner {
+  display: flex;
+  flex: 1;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.emotion {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  text-align: center;
+  gap:10px;
+}

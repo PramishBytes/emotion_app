@@ -1,0 +1,71 @@
+.image-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 0px 10px;
+  margin-top: 50px;
+}
+
+.image {
+  flex: 1;
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  overflow: hidden;
+  flex-direction: column;
+  gap:20px;
+}
+.image-preview img{
+  width: 800px;
+  height: 450px;
+}
+
+
+.emotion .button{
+  font-size: 0.7em;
+  height: 60px;
+  width: 220px;
+  padding: 10px 20px;
+}
+.image-button {
+    height: 60px;
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: #36a8eb;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-button:hover {
+    color: rgb(120, 120, 120);
+    background: #ddd;
+  }
+  .disabled {
+    text-decoration: none;
+    color: rgb(120, 120, 120);
+    background: #ddd;
+    cursor: not-allowed;
+    height: 60px;
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+  }
+  .image-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    padding: 0px 10px;
+    width: 100%;
+  }

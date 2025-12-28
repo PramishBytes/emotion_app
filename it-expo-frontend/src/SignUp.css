@@ -1,0 +1,21 @@
+.signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signup-container{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+.signup-container .signup-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+img{
+    width: 800px;
+    height: 510px;
+}
